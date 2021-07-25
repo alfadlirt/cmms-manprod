@@ -1,0 +1,7 @@
+CRITICAL - 2021-06-09 19:36:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

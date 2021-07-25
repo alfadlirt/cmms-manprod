@@ -1,0 +1,816 @@
+CRITICAL - 2021-05-30 01:53:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(157): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 02:29:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(157): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:11:19 --> Undefined variable: confirm
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Index', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(50): view('Admin/Index', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:11:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(180): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:12:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(180): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:18:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(180): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:19:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(180): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:24:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:25:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:25:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:27:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:29:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:29:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:30:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:30:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:30:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:34:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:40:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:43:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:44:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:45:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:46:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:47:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:47:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:48:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:48:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:48:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:49:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:50:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:50:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 10:53:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Delete.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Delete', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(135): view('Admin/Delete', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Hapus('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:03:57 --> Undefined variable: Admin
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Index.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Index', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(38): view('Referral/Index', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->index()
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:05:08 --> Undefined variable: Admin
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Index.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Index', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(39): view('Referral/Index', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->index()
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:25:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(129): view('Referral/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:25:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(129): view('Referral/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:25:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(129): view('Referral/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:27:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(129): view('Referral/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 12:28:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(129): view('Referral/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 14:29:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Admin\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Admin/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Admin.php(143): view('Admin/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Admin->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 14:32:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(129): view('Referral/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 14:58:52 --> Invalid file: Kategori/Index.php
+#0 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Kategori/Index....')
+#1 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Index', Array, true)
+#2 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(39): view('Kategori/Index', Array)
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->index()
+#4 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-30 15:01:25 --> Undefined variable: Referral
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Index', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(39): view('Kategori/Index', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:01:35 --> Undefined index: id_referral
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Index.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Index', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(39): view('Kategori/Index', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:16:37 --> Undefined variable: Referral
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('1')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:17:08 --> Undefined index: code
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('2')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:17:24 --> Undefined index: potongan
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('2')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:21:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:21:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:24:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:25:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:25:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:29:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:30:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Detail.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): view('Kategori/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 15:34:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:35:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:37:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:37:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:38:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:39:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:40:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 15:40:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:01:52 --> Undefined property: App\Controllers\Kategori::$itemdetailModel
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->save()
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:04:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:09:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:10:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:10:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:11:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:12:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:15:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:15:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 16:15:47 --> Undefined variable: Referral
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('6')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 16:17:11 --> Undefined variable: Referral
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('6')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 16:18:26 --> Undefined index: code
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('6')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 16:19:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 16:57:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('images', 'logo_white.png')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 16:59:01 --> Undefined variable: itemdetail
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('6')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 16:59:47 --> Undefined property: stdClass::$id_variasi
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Kategori\Edit.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Kategori/Edit', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(165): view('Kategori/Edit', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('6')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-30 17:00:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 162, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 20:21:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 20:21:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 162, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-05-30 21:30:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Kategori.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 162, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Kategori->Ubah('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

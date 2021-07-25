@@ -1,0 +1,222 @@
+CRITICAL - 2021-06-13 10:30:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 10:32:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 10:32:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 12:25:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 15:51:29 --> Undefined property: App\Controllers\Referral::$AcaraModel
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(167): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-13 15:52:10 --> Unknown column 'id_referral' in 'where clause'
+CRITICAL - 2021-06-13 15:52:10 --> Unknown column 'id_referral' in 'where clause'
+#0 C:\xampp\htdocs\AcaaraAdmin\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\AcaaraAdmin\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\AcaaraAdmin\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AcaaraAdmin\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(170): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#8 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#9 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-06-13 15:52:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 15:53:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 15:54:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 16:00:32 --> Undefined index: id_kategori
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 16:07:08 --> Undefined index: nama_kategori
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Views\Referral\Detail.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Detail', Array, true)
+#4 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(181): view('Referral/Detail', Array)
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#7 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-13 16:07:36 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Detail', Array, true)
+#3 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(180): view('Referral/Detail', Array)
+#4 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 16:09:05 --> syntax error, unexpected '']; ?>" class="btn btn-info">D' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Detail', Array, true)
+#2 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(180): view('Referral/Detail', Array)
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#4 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 16:09:16 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\AcaaraAdmin\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\AcaaraAdmin\system\Common.php(1250): CodeIgniter\View\View->render('Referral/Detail', Array, true)
+#3 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(180): view('Referral/Detail', Array)
+#4 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#5 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#6 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-13 16:10:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:23:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:23:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:23:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:24:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:24:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:24:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:24:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 176, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:24:40 --> Undefined index: kode_referral
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('2')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:25:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:25:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Referral.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 172, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Referral->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referral))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:29:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:32:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:33:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 17:33:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

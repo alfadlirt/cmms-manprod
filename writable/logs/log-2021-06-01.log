@@ -1,0 +1,361 @@
+CRITICAL - 2021-06-01 09:09:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:13:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:14:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:19:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:19:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:20:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:20:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:20:06 --> Too few arguments to function App\Controllers\Tamu::TambahTamu(), 0 passed in C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu()
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 09:20:28 --> Too few arguments to function App\Controllers\Tamu::TambahTamu(), 0 passed in C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu()
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 09:20:30 --> Too few arguments to function App\Controllers\Tamu::TambahTamu(), 0 passed in C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu()
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 09:20:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:20:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:21:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:24:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:28:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:29:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:29:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:31:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:33:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:35:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:36:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:36:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:37:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:38:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:39:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:39:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:53:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 136, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->Detail('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:54:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:55:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:56:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:57:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:57:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:57:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 09:58:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:00:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:01:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:01:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:05:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:12:44 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:13:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:14:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:15:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:15:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:20:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:20:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:23:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:24:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:28:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:29:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:30:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:31:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-01 10:40:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\AcaaraAdmin\app\Controllers\Tamu.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(931): App\Controllers\Tamu->TambahTamu('images', 'logo_white.png')
+#2 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tamu))
+#3 C:\xampp\htdocs\AcaaraAdmin\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AcaaraAdmin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
