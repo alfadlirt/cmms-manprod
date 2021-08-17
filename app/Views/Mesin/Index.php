@@ -61,7 +61,7 @@
                         </thead>
                         <tbody>
                             <?php $i = 1; ?>
-                            <?php foreach ($Supplier as $s) : ?>
+                            <?php foreach ($Mesin as $s) : ?>
                                 <?php if ($s['status'] == 1) : ?>
                                     <tr>
                                         <th><?= $i++; ?></th>
@@ -69,7 +69,7 @@
                                         <td><?= $s['id_jenis_mesin']; ?></td>                                                                          
                                         <td><?= $s['tanggal_maintenance']; ?></td>
                                         <td><?= $s['tanggal_dibuat']; ?></td>
-                                        <td><?= $s['terakhir_diubah']; ?></td>
+                                        <td><?= $s['tanggal_diubah']; ?></td>
                                         <td><?= $s['id_admin']; ?></td>                                              
                                         <td>
                                             <a href="Ubah/<?= $s['id_mesin']; ?>" class="btn btn-success">Ubah</a>

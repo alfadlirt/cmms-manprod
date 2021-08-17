@@ -155,35 +155,35 @@
                                 <div class="dropdown-divider"></div>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Mesin/Index' ?>">
-                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
+                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">adb</i>
                                         <span class="sidebar-menu-text">Mesin</span>
                                         
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/JenisMesin/Index' ?>">
-                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
+                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">adb</i>
                                         <span class="sidebar-menu-text">Tipe Mesin</span>
                                         
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Spart/Index' ?>">
-                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
+                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">exposure</i>
                                         <span class="sidebar-menu-text">Spare Part</span>
                                         
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/TipeSparePart/Index' ?>">
-                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
+                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">exposure</i>
                                         <span class="sidebar-menu-text">Tipe Spare Part</span>
                                         
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Supplier/Index' ?>">
-                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
+                                        <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">store</i>
                                         <span class="sidebar-menu-text">Supplier</span>
                                         
                                     </a>

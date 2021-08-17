@@ -13,19 +13,24 @@
                 <form role="form" action="save" method="post">
 
                     <div class="form-group">
-                        <label for="nama_supplier">Nama</label>
-                        <input type="text" class="form-control" id="nama_supplier" name="nama_supplier" placeholder="Masukkan Nama">
+                        <label for="jenis_mesin">Jenis Mesin</label>
+                        <select class="form-control" name="jenis_mesin" id="jenis_mesin">
+                            <option class="form-control" value="1">Mesin</option>
+                            <option class="form-control" value="2">Roda</option>
+                            <option class="form-control"value="3">Oli</option>
+                            <option class="form-control" value="4">Bagian Dalam</option>
+                        </select>
                         <div class="validate-alert hide">Message Here</div>
                     </div>
 
                     <div class="form-group">
-                        <label for="alamat">Alamat</label>
-                        <input type="text" class="form-control" id="alamat" name="alamat" placeholder="Masukkan Alamat">
+                        <label for="nama_mesin">Nama</label>
+                        <input type="text" class="form-control" id="nama_mesin" name="nama_mesin" placeholder="Masukkan Nama">
                         <div class="validate-alert hide">Message Here</div>
-                    </div>                   
+                    </div>                                 
 
                     <div style="margin-top:50px;float:left">
-                        <a href="<?= base_url() . '/Supplier/Index' ?>">Kembali</a>
+                        <a href="<?= base_url() . '/Mesin/Index' ?>">Kembali</a>
                     </div>
                     <div style="margin-top:50px;float:right">
                         <button type="submit" id="btnSave" class="btn btn-primary m-b3">Simpan</button>
@@ -43,17 +48,17 @@
     function ValidateInput() {
         var validate = [0, 0, 0];
 
-        if ($(nama_supplier).val() === '') {
-            setErrorFor($(nama_supplier), 'Nama Tidak Boleh Kosong');
+        if ($(jenis_mesin).val() === '') {
+            setErrorFor($(jenis_mesin), 'Jenis mesin Tidak Boleh Kosong');
         } else {
-            setClearFor($(nama_supplier));
+            setClearFor($(jenis_mesin));
             validate[0] = 1;
         }
 
-        if ($(alamat).val() === '') {
-            setErrorFor($(alamat), 'Alamat Tidak Boleh Kosong');
+        if ($(nama_mesin).val() === '') {
+            setErrorFor($(nama_mesin), 'Nama Mesin Tidak Boleh Kosong');
         } else {
-            setClearFor($(alamat));
+            setClearFor($(nama_mesin));
             validate[1] = 1;
         }
             

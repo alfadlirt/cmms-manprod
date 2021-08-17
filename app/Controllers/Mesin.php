@@ -77,8 +77,8 @@ class Mesin extends BaseController
 			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 			$this->MesinModel->save([
-				'id_jenis_mesin' => $this->request->getVar('id_jenis_Mesin'),				
-				'nama' => $this->request->getVar('nama'),			
+				'id_jenis_mesin' => $this->request->getVar('jenis_mesin'),				
+				'nama' => $this->request->getVar('nama_mesin'),			
 				'tanggal_maintenance' => $updated,
                 'tanggal_dibuat' => $updated,
 				'terakhir_diubah' => $updated,				
@@ -157,9 +157,8 @@ class Mesin extends BaseController
 
 
 			$this->MesinModel->update($id_Mesin, [
-				'nama_Mesin' => $this->request->getVar('nama_Mesin'),
-				'alamat' => $this->request->getVar('alamat'),
-				'terakhir_diubah' => $updated
+				'nama' => $this->request->getVar('nama_Mesin'),				
+				'tanggal_diubah' => $updated
 			]);
 
 			//flash message
