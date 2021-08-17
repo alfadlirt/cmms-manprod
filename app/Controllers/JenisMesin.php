@@ -26,7 +26,7 @@
         public function index()
         {
             $this->getUserInfo();
-            if  (isset($this->id_admin) && $this->role == '1')
+            if  (isset($this->id_admin) && $this->role == '0')
             {
                 $JenisMesin = $this->JenisMesinModel->findAll();
                 $data = [
@@ -48,7 +48,7 @@
         public function Tambah()
         {
             $this->getUserInfo();
-            if (isset($this->id_admin) && $this->role == '1') {
+            if (isset($this->id_admin) && $this->role == '0') {
                 $data = [
                     'title' => 'Add Jenis Mesin',
                 ];
@@ -61,7 +61,7 @@
         public function save()
         {
             $this->getUserInfo();
-            if (isset($this->id_admin) && $this->role == '1') {
+            if (isset($this->id_admin) && $this->role == '0') {
                 $data = [
                     'nama_jenis_mesin' => $this->request->getVar('nama_jenis_mesin'),
                     'status' => 1
@@ -80,7 +80,7 @@
         public function hapus($id_mesin)
         {
             $this->getUserInfo();
-            if (isset($this->id_admin) && $this->role == '1') {
+            if (isset($this->id_admin) && $this->role == '0') {
                 $JenisMesinModel = new JenisMesinModel();
 
                 $data = array(
@@ -97,7 +97,7 @@
         public function deleteConfirmed($id_mesin)
         {
             $this->getUserInfo();
-            if (isset($this->id_admin) && $this->role == '1') {
+            if (isset($this->id_admin) && $this->role == '0') {
                 $this->session = session();
 
                 $this->JenisMesinModel->update($id_mesin, [
@@ -117,7 +117,7 @@
         public function ubah($id_mesin)
         {
             $this->getUserInfo();
-            if (isset($this->id_admin) && $this->role == '1') {
+            if (isset($this->id_admin) && $this->role == '0') {
                 $JenisMesinModel = new JenisMesinModel();
 
                 $data = array(
@@ -134,7 +134,7 @@
         public function update($id_mesin)
         {
             $this->getUserInfo();
-            if (isset($this->id_admin) && $this->role == '1') {
+            if (isset($this->id_admin) && $this->role == '0') {
                 $this->session = session();                        
 
                 $this->JenisMesinModel->update($id_mesin, [

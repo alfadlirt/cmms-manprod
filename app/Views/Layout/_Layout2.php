@@ -161,7 +161,7 @@
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="<?= base_url() . '/TipeMesin/Index' ?>">
+                                    <a class="sidebar-menu-button" href="<?= base_url() . '/JenisMesin/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Tipe Mesin</span>
                                         <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>

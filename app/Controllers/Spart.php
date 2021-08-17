@@ -41,10 +41,10 @@ class Spart extends BaseController
 	public function index()
 	{
 		//PANGGIL tesinitnya di tiap method INI JANGAN LUPA BRAY
-		$this->tesinit();
+		//$this->tesinit();
 
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$Spart = $this->SpartModel->findAll();
 			$data = [
 				'title' => 'Daftar SparePart',
@@ -60,7 +60,7 @@ class Spart extends BaseController
 	public function Tambah()
 	{
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$data = [
 				'title' => 'Add SparePart',
 			];
@@ -73,7 +73,7 @@ class Spart extends BaseController
 	public function save()
 	{
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 			$this->SpartModel->save([
@@ -98,7 +98,7 @@ class Spart extends BaseController
 	public function Hapus($id_spare_part)
 	{
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$SpartModel = new SpartModel();
 
 			$data = array(
@@ -114,7 +114,7 @@ class Spart extends BaseController
 	public function deleteconfirmed($id_spare_part)
 	{
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 
@@ -135,7 +135,7 @@ class Spart extends BaseController
 	public function Ubah($id_spare_part)
 	{
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$SpartModel = new SpartModel();
 
 			$data = array(
@@ -150,7 +150,7 @@ class Spart extends BaseController
 	public function update($id_spare_part)
 	{
 		$this->getUserInfo();
-		if (isset($this->id_admin) && $this->role == '1') {
+		if (isset($this->id_admin) && $this->role == '0') {
 			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 

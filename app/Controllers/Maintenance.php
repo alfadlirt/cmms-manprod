@@ -2,18 +2,18 @@
 
 namespace App\Controllers;
 
-use App\Models\SupplierModel;
+use App\Models\AdminModel;
 
-class Supplier extends BaseController
+class Maintenance extends BaseController
 {
-	protected $SupplierModel;
+	protected $AdminModel;
 	private $id_admin;
 	private $role;
 	private $session;
 
 	public function __construct()
 	{
-		$this->SupplierModel = new SupplierModel();
+		$this->AdminModel = new AdminModel();
 		//date_default_timezone_set('Asia/Jakarta');
 	}
 
@@ -24,15 +24,15 @@ class Supplier extends BaseController
 		$this->role = $this->session->get('role');
 	}
 
-	//TAMBAHIN INI BRAY BIAR GAK LOGIN DULU MASUKIN AJA SALAH SATU Supplier (Selain SuperSupplier)
+	//TAMBAHIN INI BRAY BIAR GAK LOGIN DULU MASUKIN AJA SALAH SATU ADMIN (Selain Superadmin)
 	//username : aditpras, password : polman123, role 0, logged_in : true
 	public function tesinit()
 	{
 		$session = session();
 		$session_data = [
-			'user_id' => 1,
-			'user_name' => "[SUPERADMIN]",
-			'role' => 1,
+			'user_id' => 8,
+			'user_name' => "aditpras",
+			'role' => 0,
 			'logged_in' => true
 		];
 		$session->set($session_data);
@@ -45,13 +45,13 @@ class Supplier extends BaseController
 
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$Supplier = $this->SupplierModel->findAll();
+			$Admin = $this->AdminModel->findAll();
 			$data = [
-				'title' => 'Daftar Supplier',
-				'Supplier' => $Supplier
+				'title' => 'Daftar Admin',
+				'Admin' => $Admin
 			];
 
-			return view('Supplier/Index', $data);
+			return view('Admin/Index', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
@@ -62,9 +62,9 @@ class Supplier extends BaseController
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$data = [
-				'title' => 'Add Supplier',
+				'title' => 'Add Admin',
 			];
-			return view('Supplier/Create', $data);
+			return view('Admin/Create', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
@@ -76,78 +76,80 @@ class Supplier extends BaseController
 		if (isset($this->id_admin) && $this->role == '0') {
 			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
-			$this->SupplierModel->save([
-				'nama_supplier' => $this->request->getVar('nama_supplier'),				
-				'alamat' => $this->request->getVar('alamat'),			
-				'tanggal_dibuat' => $updated,
-				'terakhir_diubah' => $updated,				
-				'status' => 1,
-                'id_admin' => $this->session->get('user_id')
+			$this->AdminModel->save([
+				'nama_admin' => $this->request->getVar('nama_admin'),
+				'role' => 0,
+				'email_admin' => $this->request->getVar('email'),
+				'username' => $this->request->getVar('username'),
+				'password' => password_hash('polman123', PASSWORD_DEFAULT),
+				'date_created' => $updated,
+				'last_modified' => $updated,
+				'created_by' => $this->session->get('user_id'),
+				'status' => 1
 			]);
 
 			$this->session->setFlashdata('result', 'create');
 
-			return redirect()->to(base_url() . "/Supplier/Index");
+			return redirect()->to(base_url() . "/Admin/Index");
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
 
 
-	public function Hapus($id_Supplier)
+	public function Hapus($id_Admin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$SupplierModel = new SupplierModel();
+			$AdminModel = new AdminModel();
 
 			$data = array(
-				'Supplier' => $SupplierModel->find($id_Supplier)
+				'Admin' => $AdminModel->find($id_Admin)
 			);
 			//dd($data);
-			return view('Supplier/Delete', $data);
+			return view('Admin/Delete', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
 
-	public function deleteconfirmed($id_Supplier)
+	public function deleteconfirmed($id_admin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 
-			$this->SupplierModel->update($id_Supplier, [
+			$this->AdminModel->update($id_admin, [
 				'status' => 0,
-				'terakhir_diubah' => $updated
+				'last_modified' => $updated
 			]);
 
 			$this->session->setFlashdata('result', 'delete');
 
-			return redirect()->to(base_url() . "/Supplier/Index");
+			return redirect()->to(base_url() . "/Admin/Index");
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
 
 
-	public function Ubah($id_Supplier)
+	public function Ubah($id_Admin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$SupplierModel = new SupplierModel();
+			$AdminModel = new AdminModel();
 
 			$data = array(
-				'Supplier' => $SupplierModel->find($id_Supplier)
+				'Admin' => $AdminModel->find($id_Admin)
 			);
 			//dd($data);
-			return view('Supplier/Edit', $data);
+			return view('Admin/Edit', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
-
-	public function update($id_Supplier)
+	public function update($id_admin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
@@ -155,16 +157,16 @@ class Supplier extends BaseController
 			$this->session = session();
 
 
-			$this->SupplierModel->update($id_Supplier, [
-				'nama_supplier' => $this->request->getVar('nama_supplier'),
-				'alamat' => $this->request->getVar('alamat'),
-				'terakhir_diubah' => $updated
+			$this->AdminModel->update($id_admin, [
+				'nama_admin' => $this->request->getVar('nama_admin'),
+				'email_admin' => $this->request->getVar('email'),
+				'last_modified' => $updated
 			]);
 
 			//flash message
 			$this->session->setFlashdata('result', 'edit');
 
-			return redirect()->to(base_url() . "/Supplier/Index");
+			return redirect()->to(base_url() . "/Admin/Index");
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
