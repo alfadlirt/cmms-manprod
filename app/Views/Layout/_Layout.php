@@ -155,7 +155,6 @@
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Admin' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Admin</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
                                     </a>
                                 </li>
                             </ul>
