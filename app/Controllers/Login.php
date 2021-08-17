@@ -27,9 +27,11 @@ class Login extends BaseController
     public function index()
     {
         $this->getUserInfo();
+        
         if (isset($this->id_admin) && $this->role == '1') {
             return view('Dashboard/SuperadminDashboard');
         } else if (isset($this->id_admin) && $this->role == '0') {
+            //dd($this->role);
             return view('Dashboard/AdminDashboard');
         } else {
             return view('Login/LoginPage');
