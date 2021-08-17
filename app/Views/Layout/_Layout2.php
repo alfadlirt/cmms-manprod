@@ -157,35 +157,35 @@
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Mesin/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Mesin</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/JenisMesin/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Tipe Mesin</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Spart/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Spare Part</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/TipeSparePart/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Tipe Spare Part</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
+                                        
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Supplier/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Supplier</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
+                                        
                                     </a>
                                 </li>
                                 <div class="dropdown-divider"></div>
@@ -193,7 +193,7 @@
                                     <a class="sidebar-menu-button" href="<?= base_url() . '/Maintenance/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">donut_small</i>
                                         <span class="sidebar-menu-text">Maintenance</span>
-                                        <span class="badge badge-warning rounded-circle badge-notifications ml-auto" style="padding: .1875rem .375rem;">8</span>
+                                        
                                     </a>
                                 </li>
                             </ul>
