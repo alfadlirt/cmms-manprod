@@ -65,8 +65,12 @@ class Spart extends BaseController
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
+			$tipeSpart = $this->tipeSpartModel->findAll();
+			$supplier = $this->supplierModel->findAll();
 			$data = [
 				'title' => 'Add SparePart',
+				'tipeSpart' => $tipeSpart,
+				'supplier' => $supplier
 			];
 			return view('Spart/Create', $data);
 		} else {
@@ -141,10 +145,13 @@ class Spart extends BaseController
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$SpartModel = new SpartModel();
-
-			$data = array(
-				'Spart' => $SpartModel->find($id_spare_part)
-			);
+			$tipeSpart = $this->tipeSpartModel->findAll();
+			$supplier = $this->supplierModel->findAll();
+			$data = [
+				'title' => 'Add SparePart',
+				'tipeSpart' => $tipeSpart,
+				'supplier' => $supplier
+			];
 			//dd($data);
 			return view('Spart/Edit', $data);
 		} else {
