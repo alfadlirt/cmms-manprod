@@ -66,6 +66,6 @@
                 });
         })
     })(jQuery);
-</scrip>
+</script>
 
 <?= $this->endSection('content'); ?>
