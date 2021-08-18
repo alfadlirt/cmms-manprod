@@ -15,10 +15,10 @@
                     <div class="form-group">
                         <label for="jenis_mesin">Jenis Mesin</label>
                         <select class="form-control" name="jenis_mesin" id="jenis_mesin">
-                            <option class="form-control" value="1">Mesin</option>
-                            <option class="form-control" value="2">Roda</option>
-                            <option class="form-control"value="3">Oli</option>
-                            <option class="form-control" value="4">Bagian Dalam</option>
+                            <option value="-1"><span class="text-muted">--Pilih Jenis Mesin--</span></option>
+                                        <?php foreach ($tipemesin as $s) : ?>
+                                            <option value='<?= $s['id_jenis_mesin']; ?>'><?= $s['nama_jenis_mesin']; ?></option>
+                                        <?php endforeach; ?>
                         </select>
                         <div class="validate-alert hide">Message Here</div>
                     </div>

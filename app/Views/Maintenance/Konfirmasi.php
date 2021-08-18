@@ -33,7 +33,6 @@
                         <label>Maintenance Selanjutnya</label>
                         <input name="nextmain" id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today">
                     </div>      
-
                     <div style="margin-top:10px;float:left">
                         <a href="<?= base_url() . '/Maintenance/Index' ?>">Kembali</a>
                     </div>

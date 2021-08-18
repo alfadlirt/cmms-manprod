@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\MesinModel;
+use App\Models\JenisMesinModel;
 
 class Mesin extends BaseController
 {
@@ -61,8 +62,12 @@ class Mesin extends BaseController
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
+			$JenisMesinModel = new JenisMesinModel();
+			$tipe = $JenisMesinModel->findAll();
+			//dd($tipe);
 			$data = [
 				'title' => 'Add Mesin',
+				'tipemesin' => $tipe
 			];
 			return view('Mesin/Create', $data);
 		} else {
@@ -137,9 +142,11 @@ class Mesin extends BaseController
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$MesinModel = new MesinModel();
-
+			$JenisMesinModel = new JenisMesinModel();
+			$tipe = $JenisMesinModel->findAll();
 			$data = array(
-				'Mesin' => $MesinModel->find($id_Mesin)
+				'Mesin' => $MesinModel->find($id_Mesin),
+				'tipemesin'=>$tipe
 			);
 			//dd($data);
 			return view('Mesin/Edit', $data);
@@ -157,6 +164,7 @@ class Mesin extends BaseController
 
 
 			$this->MesinModel->update($id_Mesin, [
+				'id_jenis_mesin' => $this->request->getVar('jenis_mesin'),		
 				'nama' => $this->request->getVar('nama_Mesin'),				
 				'tanggal_diubah' => $updated
 			]);
