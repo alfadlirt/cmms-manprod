@@ -3,11 +3,13 @@
 namespace App\Controllers;
 
 use App\Models\SpartModel;
+use App\Models\TipeSpartModel;
 
 class Spart extends BaseController
 {
 	protected $SpartModel;
 	private $id_admin;
+	protected $tipeSpartModel;
 	private $role;
 	private $session;
 
@@ -42,13 +44,15 @@ class Spart extends BaseController
 	{
 		//PANGGIL tesinitnya di tiap method INI JANGAN LUPA BRAY
 		//$this->tesinit();
-
+		$this->tipeSpartModel = new TipeSpartModel();
+		//$tipeSpart = $this->TipeSpartModel->findAll();
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$Spart = $this->SpartModel->findAll();
 			$data = [
 				'title' => 'Daftar SparePart',
 				'Spart' => $Spart
+				//'tipeSpart' => $tipeSpart
 			];
 
 			return view('Spart/Index', $data);

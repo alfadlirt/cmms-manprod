@@ -6,48 +6,35 @@
     <div class="col-lg-12 col-md-12">
         <div class="card card-form">
             <div class="card-header">
-                <h4>Tambah SparePart</h4>
+                <h4>Tambah Data Mesin</h4>
             </div>
 
             <div class="col-lg-12 card-body card-form__body">
                 <form role="form" action="save" method="post">
 
                     <div class="form-group">
-                        <label>Jenis SparePart</label>
-                        <select class="form-control" name="id_jenis_spart" id="id_jenis_spart">
-                            <!-- <option class="form-control" value="1">Mesin</option>
+                        <label for="jenis_mesin">Jenis Mesin</label>
+                        <select class="form-control" name="jenis_mesin" id="jenis_mesin">
+                            <option class="form-control" value="1">Mesin</option>
                             <option class="form-control" value="2">Roda</option>
                             <option class="form-control"value="3">Oli</option>
-                            <option class="form-control" value="4">Bagian Dalam</option> -->
-                            <?php 
-                                foreach ($tipeSpart as $t) {
-                                    echo "<option value=" . $t->id_jenis_spart . ">$t->nama_jenis_spart</option>";
-                                }
-                            ?>
+                            <option class="form-control" value="4">Bagian Dalam</option>
                         </select>
-                        
                         <div class="validate-alert hide">Message Here</div>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Nama</label>
-                        <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan nama">
+                        <label for="nama_mesin">Nama</label>
+                        <input type="text" class="form-control" id="nama_mesin" name="nama_mesin" placeholder="Masukkan Nama">
                         <div class="validate-alert hide">Message Here</div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Supplier</label>
-                        <select class="form-control" name="id_supplier" id="id_supplier">
-                            <option class="form-control" value="1">Karya Mitra Usaha</option>
-                            <option class="form-control" value="2">Sumber Djaja Indah</option>
-                            <option class="form-control" value="3">Toko Sinar Tiga</option>
-                            <option class="form-control" value="4">Gunung Sibayak</option>
-                        </select>
-                        <div class="validate-alert hide">Message Here</div>
-                    </div>
+                    </div>      
+                     <div class="form-group">
+                        <label>Maintenance Selanjutnya</label>
+                        <input name="nextmain" id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today">
+                    </div>                             
 
                     <div style="margin-top:50px;float:left">
-                        <a href="<?= base_url() . '/Spart/Index' ?>">Kembali</a>
+                        <a href="<?= base_url() . '/Mesin/Index' ?>">Kembali</a>
                     </div>
                     <div style="margin-top:50px;float:right">
                         <button type="submit" id="btnSave" class="btn btn-primary m-b3">Simpan</button>
@@ -65,34 +52,21 @@
     function ValidateInput() {
         var validate = [0, 0, 0];
 
-        if ($(nama_admin).val() === '') {
-            setErrorFor($(nama_admin), 'Nama Tidak Boleh Kosong');
+        if ($(jenis_mesin).val() === '') {
+            setErrorFor($(jenis_mesin), 'Jenis mesin Tidak Boleh Kosong');
         } else {
-            setClearFor($(nama_admin));
+            setClearFor($(jenis_mesin));
             validate[0] = 1;
         }
 
-        if ($(email).val() === '') {
-            setErrorFor($(email), 'Email Tidak Boleh Kosong');
+        if ($(nama_mesin).val() === '') {
+            setErrorFor($(nama_mesin), 'Nama Mesin Tidak Boleh Kosong');
         } else {
-            setClearFor($(email));
+            setClearFor($(nama_mesin));
             validate[1] = 1;
         }
-
-        if ($(username).val() === '') {
-            setErrorFor($(username), 'Username Tidak Boleh Kosong');
-        } else {
-            if ($(username).val().length < 8) {
-                setErrorFor($(username), 'Username Tidak Boleh Kurang Dari 8');
-            } else {
-                setClearFor($(username));
-                validate[2] = 1;
-            }
-        }
-
-
-
-        if (validate[0] == 1 && validate[1] == 1 && validate[2] == 1) {
+            
+        if (validate[0] == 1 && validate[1] == 1 ) {
             return true;
         } else {
             return false;

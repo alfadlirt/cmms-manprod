@@ -2,18 +2,18 @@
 
 namespace App\Controllers;
 
-use App\Models\TipeSpartModel;
+use App\Models\MesinModel;
 
-class TipeSpart extends BaseController
+class Mesin extends BaseController
 {
-	protected $TipeSpartModel;
+	protected $MesinModel;
 	private $id_admin;
 	private $role;
 	private $session;
 
 	public function __construct()
 	{
-		$this->TipeSpartModel = new TipeSpartModel();
+		$this->MesinModel = new MesinModel();
 		//date_default_timezone_set('Asia/Jakarta');
 	}
 
@@ -24,15 +24,15 @@ class TipeSpart extends BaseController
 		$this->role = $this->session->get('role');
 	}
 
-	//TAMBAHIN INI BRAY BIAR GAK LOGIN DULU MASUKIN AJA SALAH SATU ADMIN (Selain Superadmin)
+	//TAMBAHIN INI BRAY BIAR GAK LOGIN DULU MASUKIN AJA SALAH SATU Mesin (Selain SuperMesin)
 	//username : aditpras, password : polman123, role 0, logged_in : true
 	public function tesinit()
 	{
 		$session = session();
 		$session_data = [
-			'user_id' => 8,
-			'user_name' => "aditpras",
-			'role' => 0,
+			'user_id' => 1,
+			'user_name' => "[SUPERADMIN]",
+			'role' => 1,
 			'logged_in' => true
 		];
 		$session->set($session_data);
@@ -41,17 +41,17 @@ class TipeSpart extends BaseController
 	public function index()
 	{
 		//PANGGIL tesinitnya di tiap method INI JANGAN LUPA BRAY
-		$this->tesinit();
+		//$this->tesinit();
 
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$TipeSpart = $this->tipeSpartModel->findAll();
+			$Mesin = $this->MesinModel->findAll();
 			$data = [
-				'title' => 'Daftar TipeSparePart',
-				'TipeSpart' => $TipeSpart
+				'title' => 'Daftar Mesin',
+				'Mesin' => $Mesin
 			];
 
-			return view('TipeSpart/Index', $data);
+			return view('Mesin/Index', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
@@ -62,9 +62,9 @@ class TipeSpart extends BaseController
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$data = [
-				'title' => 'Add TipeSparePart',
+				'title' => 'Add Mesin',
 			];
-			return view('TipeSpart/Create', $data);
+			return view('Mesin/Create', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
@@ -74,86 +74,97 @@ class TipeSpart extends BaseController
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
+			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
-			$this->TipeSpartModel->save([
-				'nama_jenis_spart' => $this->request->getVar('nama_jenis_spart'),
-				'status' => 1
+			$this->MesinModel->save([
+				'id_jenis_mesin' => $this->request->getVar('jenis_mesin'),				
+				'nama' => $this->request->getVar('nama_mesin'),			
+				'tanggal_maintenance' => $this->request->getVar('nextmain'),
+                'tanggal_dibuat' => $updated,
+				'terakhir_diubah' => $updated,				
+				'status' => 1,
+                'id_admin' => $this->session->get('user_id')
 			]);
 
 			$this->session->setFlashdata('result', 'create');
 
-			return redirect()->to(base_url() . "/TipeSpart/Index");
+			return redirect()->to(base_url() . "/Mesin/Index");
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
 
 
-	public function Hapus($id_jenis_spare_part)
+	public function Hapus($id_Mesin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$TipeSpartModel = new TipeSpartModel();
+			$MesinModel = new MesinModel();
 
 			$data = array(
-				'TipeSpart' => $TipeSpartModel->find($id_jenis_spare_part)
+				'Mesin' => $MesinModel->find($id_Mesin)
 			);
 			//dd($data);
-			return view('TipeSpart/Delete', $data);
+			return view('Mesin/Delete', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
 
-	public function deleteconfirmed($id_jenis_spart)
+	public function deleteconfirmed($id_Mesin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
+			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 
-			$this->TipeSpartModel->update($id_jenis_spart, [
-				'status' => 0
+			$this->MesinModel->update($id_Mesin, [
+				'status' => 0,
+				'terakhir_diubah' => $updated
 			]);
 
 			$this->session->setFlashdata('result', 'delete');
 
-			return redirect()->to(base_url() . "/TipeSpart/Index");
+			return redirect()->to(base_url() . "/Mesin/Index");
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
 
 
-	public function Ubah($id_jenis_spart)
+	public function Ubah($id_Mesin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$TipeSpartModel = new TipeSpartModel();
+			$MesinModel = new MesinModel();
 
 			$data = array(
-				'TipeSpart' => $TipeSpartModel->find($id_jenis_spart)
+				'Mesin' => $MesinModel->find($id_Mesin)
 			);
 			//dd($data);
-			return view('TipeSpart/Edit', $data);
+			return view('Mesin/Edit', $data);
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
 	}
-	public function update($id_jenis_spart)
+
+	public function update($id_Mesin)
 	{
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
+			$updated = date("Y-m-d H:i:s");
 			$this->session = session();
 
 
-			$this->TipeSpartModel->update($id_jenis_spart, [
-				'nama_jenis_spart' => $this->request->getVar('nama_jenis_spart')
+			$this->MesinModel->update($id_Mesin, [
+				'nama' => $this->request->getVar('nama_Mesin'),				
+				'tanggal_diubah' => $updated
 			]);
 
 			//flash message
 			$this->session->setFlashdata('result', 'edit');
 
-			return redirect()->to(base_url() . "/TipeSpart/Index");
+			return redirect()->to(base_url() . "/Mesin/Index");
 		} else {
 			return redirect()->to(base_url() . "/");
 		}
