@@ -15,15 +15,13 @@
                     <div class="form-group">
                         <label>Jenis SparePart</label>
                         <select class="form-control" name="id_jenis_spart" id="id_jenis_spart">
+                            <?php foreach ($tipeSpart as $t) : ?>
+                            <option <?= ($t['id_jenis_spart'] == $t['id_jenis_spart']) ? 'selected' : '' ?> value='<?= $t['id_jenis_spart']; ?>'><?= $t['nama_jenis_spart']; ?></option>
+                            <?php endforeach; ?>
                             <!-- <option class="form-control" value="1">Mesin</option>
                             <option class="form-control" value="2">Roda</option>
                             <option class="form-control"value="3">Oli</option>
                             <option class="form-control" value="4">Bagian Dalam</option> -->
-                            <?php 
-                                foreach ($tipeSpart as $t) {
-                                    echo "<option value=" . $t->id_jenis_spart . ">$t->nama_jenis_spart</option>";
-                                }
-                            ?>
                         </select>
                         
                         <div class="validate-alert hide">Message Here</div>
@@ -38,10 +36,14 @@
                     <div class="form-group">
                         <label>Supplier</label>
                         <select class="form-control" name="id_supplier" id="id_supplier">
-                            <option class="form-control" value="1">Karya Mitra Usaha</option>
+                            <option class="form-control" value="-1">Pilih Item</option>  
+                            <?php foreach ($supplier as $s) : ?>
+                            <option <?= ($s['id_supplier'] == $s['id_supplier']) ? 'selected' : '' ?> value='<?= $s['id_supplier']; ?>'><?= $s['nama_supplier']; ?></option>
+                            <?php endforeach; ?>
+                            <!-- <option class="form-control" value="1">Karya Mitra Usaha</option>
                             <option class="form-control" value="2">Sumber Djaja Indah</option>
                             <option class="form-control" value="3">Toko Sinar Tiga</option>
-                            <option class="form-control" value="4">Gunung Sibayak</option>
+                            <option class="form-control" value="4">Gunung Sibayak</option> -->
                         </select>
                         <div class="validate-alert hide">Message Here</div>
                     </div>
