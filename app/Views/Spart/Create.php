@@ -15,11 +15,17 @@
                     <div class="form-group">
                         <label>Jenis SparePart</label>
                         <select class="form-control" name="id_jenis_spart" id="id_jenis_spart">
-                            <option class="form-control" value="1">Mesin</option>
+                            <!-- <option class="form-control" value="1">Mesin</option>
                             <option class="form-control" value="2">Roda</option>
                             <option class="form-control"value="3">Oli</option>
-                            <option class="form-control" value="4">Bagian Dalam</option>
+                            <option class="form-control" value="4">Bagian Dalam</option> -->
+                            <?php 
+                                foreach ($tipeSpart as $t) {
+                                    echo "<option value=" . $t->id_jenis_spart . ">$t->nama_jenis_spart</option>";
+                                }
+                            ?>
                         </select>
+                        
                         <div class="validate-alert hide">Message Here</div>
                     </div>
 

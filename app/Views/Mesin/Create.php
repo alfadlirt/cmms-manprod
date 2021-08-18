@@ -6,7 +6,7 @@
     <div class="col-lg-12 col-md-12">
         <div class="card card-form">
             <div class="card-header">
-                <h4>Tambah Supplier</h4>
+                <h4>Tambah Data Mesin</h4>
             </div>
 
             <div class="col-lg-12 card-body card-form__body">
@@ -27,7 +27,11 @@
                         <label for="nama_mesin">Nama</label>
                         <input type="text" class="form-control" id="nama_mesin" name="nama_mesin" placeholder="Masukkan Nama">
                         <div class="validate-alert hide">Message Here</div>
-                    </div>                                 
+                    </div>      
+                     <div class="form-group">
+                        <label>Maintenance Selanjutnya</label>
+                        <input name="nextmain" id="flatpickrSample01" type="text" class="form-control" placeholder="Flatpickr example" data-toggle="flatpickr" value="today">
+                    </div>                             
 
                     <div style="margin-top:50px;float:left">
                         <a href="<?= base_url() . '/Mesin/Index' ?>">Kembali</a>

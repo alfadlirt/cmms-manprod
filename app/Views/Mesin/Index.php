@@ -6,7 +6,7 @@
     <div class="col-lg-12 col-md-12">
         <div class="card">
             <div class="card-header">
-                <h4>Kelola Supplier</h4>
+                <h4>Kelola Data Mesin</h4>
             </div>
 
 

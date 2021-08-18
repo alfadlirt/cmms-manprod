@@ -45,7 +45,7 @@ class TipeSpart extends BaseController
 
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$TipeSpart = $this->TipeSpartModel->findAll();
+			$TipeSpart = $this->tipeSpartModel->findAll();
 			$data = [
 				'title' => 'Daftar TipeSparePart',
 				'TipeSpart' => $TipeSpart

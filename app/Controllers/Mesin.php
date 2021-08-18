@@ -79,7 +79,7 @@ class Mesin extends BaseController
 			$this->MesinModel->save([
 				'id_jenis_mesin' => $this->request->getVar('jenis_mesin'),				
 				'nama' => $this->request->getVar('nama_mesin'),			
-				'tanggal_maintenance' => $updated,
+				'tanggal_maintenance' => $this->request->getVar('nextmain'),
                 'tanggal_dibuat' => $updated,
 				'terakhir_diubah' => $updated,				
 				'status' => 1,
