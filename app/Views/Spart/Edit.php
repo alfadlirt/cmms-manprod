@@ -34,7 +34,7 @@
                         <div class="form-group">
                             <label>Supplier</label>
                             <select class="form-control" name="id_supplier" id="id_supplier">
-                                <option class="form-control" value="-1">Pilih Item</option>  
+                                <option class="form-control" value="-1">Pilih Item</option> 
                                 <?php foreach ($supplier as $s) : ?>
                                 <option <?= ($s['id_supplier'] == $s['id_supplier']) ? 'selected' : '' ?> value='<?= $s['id_supplier']; ?>'><?= $s['nama_supplier']; ?></option>
                                 <?php endforeach; ?>

@@ -156,7 +156,7 @@ class Spart extends BaseController
 				'title' => 'Add SparePart',
 				'tipeSpart' => $tipeSpart,
 				'supplier' => $supplier
-			];		
+			];
 			//dd($data);
 			return view('Spart/Edit', $data);
 		} else {

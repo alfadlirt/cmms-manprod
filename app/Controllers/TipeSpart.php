@@ -41,11 +41,11 @@ class TipeSpart extends BaseController
 	public function index()
 	{
 		//PANGGIL tesinitnya di tiap method INI JANGAN LUPA BRAY
-		$this->tesinit();
+//		$this->tesinit();
 
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
-			$TipeSpart = $this->tipeSpartModel->findAll();
+			$TipeSpart = $this->TipeSpartModel->findAll();
 			$data = [
 				'title' => 'Daftar TipeSparePart',
 				'TipeSpart' => $TipeSpart

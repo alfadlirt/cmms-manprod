@@ -175,7 +175,7 @@
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="<?= base_url() . '/TipeSparePart/Index' ?>">
+                                    <a class="sidebar-menu-button" href="<?= base_url() . '/TipeSpart/Index' ?>">
                                         <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">exposure</i>
                                         <span class="sidebar-menu-text">Tipe Spare Part</span>
                                         
