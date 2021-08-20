@@ -4,10 +4,13 @@ namespace App\Controllers;
 
 use App\Models\SpartModel;
 use App\Models\TipeSpartModel;
+use App\Models\SupplierModel;
 
 class Spart extends BaseController
 {
 	protected $SpartModel;
+	protected $tipeSpartModel;
+	protected $supplierModel;
 	private $id_admin;
 	protected $tipeSpartModel;
 	private $role;
@@ -16,7 +19,10 @@ class Spart extends BaseController
 	public function __construct()
 	{
 		$this->SpartModel = new SpartModel();
+		$this->tipeSpartModel = new TipeSpartModel();
+		$this->supplierModel = new SupplierModel();
 		//date_default_timezone_set('Asia/Jakarta');
+		
 	}
 
 	public function getUserInfo()
@@ -145,7 +151,6 @@ class Spart extends BaseController
 		$this->getUserInfo();
 		if (isset($this->id_admin) && $this->role == '0') {
 			$SpartModel = new SpartModel();
-			$tipeSpart = $this->tipeSpartModel->findAll();
 			$supplier = $this->supplierModel->findAll();
 			$data = [
 				'title' => 'Add SparePart',
